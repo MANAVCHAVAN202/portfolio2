@@ -1,0 +1,248 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,
+img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+  font-family: "Cantata One", serif;
+  background: #40e0d0; /* fallback for old browsers */
+  background:
+  -webkit-linear-gradient(
+    to right,
+    #ff0080,
+    #ff8c00,
+    #40e0d0 
+    );
+   /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ff0080,
+    #ff8c00,
+    #40e0d0
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.main-header {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.logo {
+  font-size: 30px;
+}
+
+.header-content {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header-content a:hover {
+  color: red;
+  transition: color 0.2s ease-in;
+}
+
+.main {
+  margin-top: 20px;
+}
+
+.main-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-info p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.image-container {
+  margin: 15px 15px;
+}
+
+.image-container img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin: 15px 30px;
+}
+
+.icon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+}
+
+.icon-container svg {
+  margin-right: 10px;
+}
+
+.icon-container svg:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+  transition: all 0.3s ease-in;
+}
+
+.icon-styles {
+  width: 50px;
+  height: 50px;
+}
+
+.x-logo {
+  width: 40px;
+  height: 40px;
+}
+
+.gradient-text {
+  background: linear-gradient(45deg, #3f5efb, #fc466b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+  /* You may need vendor prefixes for some browsers */
+}
+
+.gradient-text-logo {
+  background: linear-gradient(45deg, #12c2e9, #c471ed, #f64f59);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 48px;
+  font-weight: bold;
+  /* You may need vendor prefixes for some browsers */
+}
+
+.about-me {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+  height: 100vh;
+}
+
+.about-me h1 {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.about-me p {
+  line-height: 1.5;
+  letter-spacing: 1.2px;
+}
+
+.cert {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cert img {
+  width: 300px;
+  height: 400px;
+  margin: 50px auto;
+  border: 2px solid gold;
+  border-radius: 2px;
+}
+
+.cert-heading {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 30px;
+}
+
+.resume {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume img {
+  width: 300px;
+  height: 400px;
+  margin: 30px auto;
+  border: 2px solid gold;
+  border-radius: 2px;
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* flex-direction: column; */
+  margin-top: 30px;
+  margin-bottom: 30px;
+  line-height: 2;
+  padding-bottom: 50px;
+}
+
+.contact span {
+  font-weight: bold;
+}
+
+.contact-header {
+  min-width: 100px;
+  max-width: 100px;
+  width: 100px;
+}
